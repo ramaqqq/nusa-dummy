@@ -1,0 +1,37 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "wali": "markonah",
+      "username": "markonah",
+      "jumlahanak": "edi",
+      "tempatlahir": "bogor",
+      "tanggallahir": "01-08-2000",
+      "alamatlengkap": "sadfsafsadf",
+      "email": "markonah@gmail.com",
+      "password": "12345",
+      "konfirmasipassword": "12345"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "wali": "bunda",
+      "username": "dekisuep@gmail.com",
+      "jumlahanak": "4",
+      "tempatlahir": "joglo",
+      "tanggallahir": "2022-10-01",
+      "alamatlengkap": "jl. sakral",
+      "email": "dekisuep@gmail.com",
+      "password": "1234",
+      "konfirmasipassword": "1234",
+      "id": 5
+    }
+  ]
+}

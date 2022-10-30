@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Routes, Route } from "react-router-dom";
+import Form from './components/formBiodata/Form';
+import FormLogin from './components/formLogin/FormLogin';
+import FormRegister from './components/formRegistration/FormRegister';
+import HomePage from './pages/HomePage'
+import Sidebar from './pages/Sidebar';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/register" exact element={<FormRegister />} />
+        <Route path="/login" exact element={<FormLogin />} />
+        <Route path="/form" exact element={<Form />} />
+        <Route path="/dashboard" exact element={<Sidebar />} />
+      </Routes>
     </div>
   );
 }

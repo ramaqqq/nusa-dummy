@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito+Sans:wght@400;700&family=Open+Sans:wght@300&family=Work+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito+Sans:wght@400;700&family=Open+Sans:wght@300&family=Work+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito+Sans:wght@400;700&family=Open+Sans:wght@300&family=Work+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito+Sans:wght@400;700&family=Open+Sans:wght@300&family=Work+Sans:wght@500;700&display=swap");
+
+.btn-master,
+.btn-second,
+.btn-first {
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+
+    .btn-master,
+    .btn-second,
+    .btn-first {
+        padding: 10px 20px;
+    }
+}
+
+.btn-first {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.btn-first:hover {
+    background-color: #df3e3e;
+    color: rgb(209, 205, 205);
+}
+
+.btn-second {
+    border: 2px solid #d32f2f;
+    color: #d32f2f;
+}
+
+.btn-second:hover {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.navbar {
+    padding: 35px 0;
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 25px 0;
+    }
+}
+
+.navbar .nav-link {
+    margin-right: 50px;
+    font-weight: 500;
+    color: #212121 !important;
+}
+
+.navbar .nav-link.active {
+    font-weight: 700;
+    color: #c62828 !important;
+}
+
+.navbar .btn-login {
+    color: #212121 !important;
+    text-decoration: none;
+}
+
+.navbar-expand-lg {
+    background-color: #ffcdd2;
+}
+
+.btn-master,
+.btn-first,
+.btn-second {
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+
+    .btn-master,
+    .btn-first,
+    .btn-second {
+        padding: 10px 20px;
+    }
+}
+
+.btn-first {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.btn-first:hover {
+    background-color: #df3e3e;
+    color: rgb(209, 205, 205);
+}
+
+.btn-second {
+    border: 2px solid #d32f2f;
+    color: #d32f2f;
+}
+
+.btn-second:hover {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+* {
+    font-family: "Work Sans", sans-serif;
+    list-style: none;
+    text-decoration: none !important;
+    transition: 0.3s ease-in-out all;
+}
+
+.container {
+    max-width: 1344px;
+}
+
+.section-margin {
+    margin-top: 180px;
+}
+
+.label-section {
+    font-weight: 500;
+    font-size: 25px;
+    color: #212121;
+}
+
+.heading-section {
+    font-weight: 500;
+    font-size: 40px;
+    color: #212121;
+}
+
+@media (max-width: 767.98px) {
+    .heading-section {
+        font-size: 30px;
+    }
+}
+
+.subheading-section {
+    font-weight: 300;
+    font-size: 18px;
+    color: #212121;
+}
+
+@media (max-width: 767.98px) {
+    .subheading-section {
+        font-size: 16px;
+    }
+}
+
+.home {
+    background-color: #ffcdd2;
+    padding-top: 180px;
+    height: 100vh;
+}
+
+.home .heading-home {
+    font-size: 46px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.home .heading-home .prop {
+    color: #c62828;
+}
+
+.home .heading-home .kre {
+    color: #d32f2f;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .home .heading-home {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home .heading-home {
+        font-size: 32px;
+    }
+}
+
+.home .subheading-home {
+    font-size: 20px;
+    font-weight: 300;
+    color: #212121;
+}
+
+@media (max-width: 767.98px) {
+    .home .subheading-home {
+        font-size: 16px;
+    }
+}
+
+.home .btn-home {
+    margin-top: 125px;
+}
+
+@media (max-width: 767.98px) {
+    .home .btn-home {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .home .img-home {
+        max-width: 620px;
+        max-height: 500px;
+    }
+}
+
+.category i {
+    font-size: 50px;
+    color: #c62828;
+}
+
+.category .card {
+    border: 2px solid #c62828;
+}
+
+.category .card:hover {
+    background-color: #c62828;
+}
+
+.category .card:hover .category-name,
+.category .card:hover .class {
+    color: #fff;
+}
+
+.category .card .category-name {
+    font-size: 20px;
+    color: #c62828;
+}
+
+.category .card .class {
+    color: #c62828;
+}
+
+.product i {
+    font-size: 50px;
+    color: #c62828;
+}
+
+/*# sourceMappingURL=main.css.map */
