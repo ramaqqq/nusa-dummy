@@ -32,6 +32,31 @@
       "password": "1234",
       "konfirmasipassword": "1234",
       "id": 5
+    },
+    {
+      "email": "markonah@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "email": "markonah@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "email": "dekisuep@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "email": "dekisuep@gmail.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "email": "asfasd",
+      "password": "jhfhfhjfjk",
+      "id": 10
     }
   ]
 }

@@ -7,6 +7,8 @@ import logo from '../../assets/images/icons/logo.png';
 
 const FormRegister = () => {
 
+    const [user] = useState(localStorage.getItem("email"));
+
     let navigate = useNavigate();
     const [formData, setFormData] = useState({
         wali: "",
@@ -80,7 +82,7 @@ const FormRegister = () => {
             <div className="container mt-5 mb-5">
                 <div class="row">
 
-
+                    <span>Hallo {user}</span>
                     <div className='col-12'>
                         <div className="row">
 
